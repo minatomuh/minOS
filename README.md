@@ -22,17 +22,6 @@ minOS is a simple non-preemptive operating system designed for the C312 CPU arch
 - **Thread Table (100-375)**: Process control blocks for up to 11 threads (including OS)
 - **Thread Data Sections (1000+)**: Individual data and instruction spaces for each thread
 
-## System Calls
-
-### `SYSCALL PRN A`
-Prints the value at memory address A
-
-### `SYSCALL HLT`
-Terminates the calling thread and decrements active thread counter
-
-### `SYSCALL YIELD`
-Voluntarily yields CPU control to other threads through complete context switch
-
 ## Instruction Set
 
 | Instruction | Semantic | Description |
