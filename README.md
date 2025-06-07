@@ -4,7 +4,7 @@
 
 ## Overview
 
-minOS is a simple non-preemptive operating system designed for the C312 CPU architecture. Capable of multitasking using a round-robin scheduler to manage up to 10 concurrent threads. The OS demonstrates fundamental OS concepts including process management, context switching, and system calls.
+minOS is a simple non-preemptive operating system designed for the custom C312 CPU architecture. Capable of multitasking using a round-robin scheduler to manage up to 10 concurrent threads. The OS demonstrates fundamental OS concepts including process management, context switching, and system calls.
 
 ## Features
 
